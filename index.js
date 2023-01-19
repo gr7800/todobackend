@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 
 app.use(cors());
 
-app.use("/", signuRoute)
+app.use("/",signuRoute)
 app.use("/",loginRoute)
 // app.use("/",authentication)
 
