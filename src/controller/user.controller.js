@@ -1,4 +1,4 @@
-const User=require("../model/user.model")
+const User=require("../model/User.model")
 const argon2 =require("argon2")
 const jwt= require("jsonwebtoken")
 exports.register=async(req,res)=>{
