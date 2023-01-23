@@ -1,5 +1,5 @@
 const express = require("express");
-const { GetAllItem, GetAllItembyId, GetAllItembySearch, Add, Remove, UpdateGrocerry } = require("../controller/Grocerry.controller");
+const { GetAllItem, GetAllItembyId, GetAllItembySearch, Add, Remove, UpdateGrocerry } = require("../controller/grocerry.controller");
 
 const router = express.Router();
 
